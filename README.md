@@ -1,7 +1,7 @@
 # BiscuitLand
 
 A brand new bleeding edge non bloated Discord library.\
-Unofficial port from https://github.com/oasisjs/biscuit
+Unofficial port from https://github.com/oasisjs/biscuit for Deno developers
 
 # Features
 
@@ -17,8 +17,8 @@ import {
 	GatewayIntentBits,
 	InteractionResponseType,
 	InteractionType,
-} from 'https://deno.land/x/biscuitland@0.0.1/common/mod.ts';
-import { Session } from 'https://deno.land/x/biscuitland@0.0.1/core/mod.ts';
+} from 'https://deno.land/x/biscuitland@3.0.4/common/mod.ts';
+import { Session } from 'https://deno.land/x/biscuitland@3.0.4/core/mod.ts';
 
 const session = new Session({
 	intents: GatewayIntentBits.Guilds,
